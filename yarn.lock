@@ -414,7 +414,7 @@
     "@griffel/react" "^1.5.32"
     "@swc/helpers" "^0.5.1"
 
-"@fluentui/react-icons@^2.0.237", "@fluentui/react-icons@^2.0.239", "@fluentui/react-icons@^2.0.245":
+"@fluentui/react-icons@^2.0.237", "@fluentui/react-icons@^2.0.239", "@fluentui/react-icons@^2.0.245", "@fluentui/react-icons@^2.0.322":
   version "2.0.322"
   resolved "https://registry.yarnpkg.com/@fluentui/react-icons/-/react-icons-2.0.322.tgz#81b6efb274c73d2f4aef80dc33525092800e1f08"
   integrity sha512-JOzF9+KgjMhSUz3KQdWj5YqqqpdzGQC9w2KvWKkWU1cqsDgOobMu/AUhvduYvWN1bP7uVVsKi2ncOyxCa8W9aQ==
