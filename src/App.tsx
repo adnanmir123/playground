@@ -1,7 +1,4 @@
 import React from 'react';
+import { Button } from '@fluentui/react-components';
 
-const App = () => {
-  return <div>Hello, Fluent UI!</div>;
-};
-
-export default App;
+export default () => <Button appearance="primary">Get started</Button>;
