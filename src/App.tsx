@@ -2,6 +2,7 @@ import * as React from "react";
 import {
   makeStyles,
   Button,
+  Link,
   Tooltip,
   Spinner,
   tokens,
@@ -219,6 +220,28 @@ const WithLongText = () => {
   );
 };
 
+const ShowLink = () => {
+  const styles = useStyles();
+  return (
+    <div className={styles.section}>
+      <h2 className={styles.sectionTitle}>Link</h2>
+      <div className={styles.column}>
+        <div className={styles.row}>
+          <Link href="https://www.microsoft.com">Default link</Link>
+          <Link href="https://www.microsoft.com" appearance="subtle">Subtle link</Link>
+          <Link>Link without href renders as a button</Link>
+        </div>
+        <div className={styles.row}>
+          <Link href="https://www.microsoft.com" disabled>Disabled link</Link>
+          <Link href="https://www.microsoft.com" inline>
+            Inline link used within a sentence of text
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default () => {
   const styles = useStyles();
   return (
@@ -230,6 +253,7 @@ export default () => {
       <Shape />
       <Size />
       <WithLongText />
+      <ShowLink />
     </div>
   );
 };
